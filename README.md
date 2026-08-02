@@ -1,6 +1,6 @@
 # Caflow — CaterFlow code showcase
 
-Public sample of **[CaterFlow](https://github.com/MadinaBonuAlisherova/caterflow)** — a catering marketplace for Uzbekistan (restaurants, caterers, private chefs).
+Public sample of **[CaterFlow] — a catering marketplace for Uzbekistan (restaurants, caterers, private chefs).
 
 This repo contains **selected source files only** (not a runnable full app). It is meant for reviewers, collaborators, and portfolio visibility.
 
