@@ -1,6 +1,6 @@
 # Caflow — CaterFlow UI sample
 
-Tiny public sample from **[CaterFlow](https://github.com/MadinaBonuAlisherova/caterflow)**.
+Tiny public sample from CaterFlow.
 
 ## Files (7)
 
