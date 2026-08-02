@@ -1,10 +1,7 @@
 # Showcase index
 
-**Frontend UI samples only** — safe for public portfolio review.
+**Core homepage UI only** (~8 components).
 
-- `../frontend/src/components/landing/` — Homepage & CaterAi intake
-- `../frontend/src/components/search/` — Marketplace search panels
-- `../frontend/src/components/account/` — Customer account layout
-- `../frontend/src/pages/Landing.tsx` — Page composition
+Removed in latest trim: search panels, account shell, catering sections, partner marquee, testimonials, markets grid, and all backend Java.
 
-Backend and API integration code are not published here.
+See root `README.md` for the file list.
