@@ -1,18 +1,10 @@
 # Showcase index
 
-Curated exports from CaterFlow — updated periodically from the main branch.
+**Frontend UI samples only** — safe for public portfolio review.
 
-## Frontend samples
-
-- `../frontend/src/components/landing/` — Homepage, CaterAi intake, partner marquee, solutions tabs
-- `../frontend/src/components/search/` — Marketplace search UX
+- `../frontend/src/components/landing/` — Homepage & CaterAi intake
+- `../frontend/src/components/search/` — Marketplace search panels
+- `../frontend/src/components/account/` — Customer account layout
 - `../frontend/src/pages/Landing.tsx` — Page composition
 
-## Backend samples
-
-- `../backend/src/main/java/com/caterflow/media/` — Upload pipeline (presign + direct API upload)
-- `../backend/src/main/java/com/caterflow/ai/` — AI-assisted catering search
-- `../backend/src/main/java/com/caterflow/search/` — Search criteria normalization
-- `../backend/src/main/java/com/caterflow/vendor/` — Public vendor discovery (subset)
-
-Ask for additional modules (bookings, offers, admin) via issues if needed for review.
+Backend and API integration code are not published here.

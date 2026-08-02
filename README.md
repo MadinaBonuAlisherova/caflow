@@ -1,31 +1,23 @@
-# Caflow — CaterFlow code showcase
+# Caflow — CaterFlow UI showcase
 
-Public sample of CaterFlow — a catering marketplace for Uzbekistan (restaurants, caterers, private chefs).
+Public **frontend samples** from **[CaterFlow](https://github.com/MadinaBonuAlisherova/caterflow)** — a catering marketplace for Uzbekistan.
 
-This repo contains **selected source files only** (not a runnable full app). It is meant for reviewers, collaborators, and portfolio visibility.
+This repo contains **selected React/TypeScript UI files only** (not a runnable app). Backend, API clients, and secrets stay in the main project.
 
 ## What’s included
 
-| Area | Path | Highlights |
-|------|------|------------|
-| **Homepage & CaterAi** | `frontend/src/components/landing/` | Hero, AI intake hub, ZeroCater-inspired sections, trust stats |
-| **Browse / search UI** | `frontend/src/components/search/` | Filters, vendor cards, paginated results |
-| **Customer account UI** | `frontend/src/components/account/` | Warm gold/cream account shell |
-| **Catering content** | `frontend/src/components/catering/` | Menu-style education sections |
-| **AI + search client** | `frontend/src/lib/` | CaterAi parser, catering search helpers |
-| **Media uploads** | `backend/.../media/` | Server-side R2 upload (no browser CORS to storage) |
-| **AI parsing API** | `backend/.../ai/` | Catering request interpretation |
-| **Vendor discovery** | `backend/.../search/`, `vendor/` | Paginated public vendor search |
+| Area | Path |
+|------|------|
+| Homepage & CaterAi | `frontend/src/components/landing/` |
+| Browse / search UI | `frontend/src/components/search/` |
+| Customer account shell | `frontend/src/components/account/` |
+| Catering content sections | `frontend/src/components/catering/` |
+| Styles | `frontend/src/index.css`, `frontend/tailwind.config.js` |
 
-## Tech stack
+## Tech stack (UI)
 
-- **Frontend:** React 18, TypeScript, Vite, Tailwind, TanStack Query, React Hook Form + Zod
-- **Backend:** Java 21, Spring Boot, PostgreSQL, Flyway, JWT auth, Cloudflare R2 (S3-compatible)
+React 18 · TypeScript · Tailwind CSS · Lucide icons
 
-## Full repository
+## Full app
 
-The complete monorepo (frontend + backend + migrations + deploy docs) lives in the private/main **caterflow** project. This showcase omits secrets, admin tooling, payments, and deployment config.
-
-## Security note
-
-No `.env` files, API keys, or production credentials are included. Use `.env.example` patterns from the main repo when running locally.
+The complete monorepo (backend, auth, payments, deploy) is in the **caterflow** repository.
