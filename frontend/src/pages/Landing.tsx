@@ -1,8 +1,7 @@
 import { HeroSection } from '@/components/landing/HeroSection';
 import { CaterAiHub } from '@/components/landing/CaterAiHub';
-import { HowItWorks } from '@/components/landing/HowItWorks';
 
-/** Minimal homepage composition — core showcase only */
+/** Minimal homepage showcase — hero + CaterAi intake UI */
 export default function Landing() {
   return (
     <div className="relative bg-cream">
@@ -15,12 +14,10 @@ export default function Landing() {
         }}
       />
 
-      <section className="border-b border-line/50 pb-6 md:pb-8">
+      <section className="border-b border-line/50 pb-8 md:pb-10">
         <HeroSection />
         <CaterAiHub />
       </section>
-
-      <HowItWorks />
     </div>
   );
 }

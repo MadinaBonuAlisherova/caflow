@@ -1,20 +1,15 @@
-# Caflow — CaterFlow UI showcase
+# Caflow — CaterFlow UI sample
 
-Public **frontend samples** from **[CaterFlow](https://github.com/MadinaBonuAlisherova/caterflow)** — a catering marketplace for Uzbekistan.
+Tiny public sample from **[CaterFlow](https://github.com/MadinaBonuAlisherova/caterflow)**.
 
-Small, curated UI slice only. Not runnable without the main repo.
+## Files (7)
 
-## Included
+| File | Purpose |
+|------|---------|
+| `HeroSection.tsx` | Homepage hero |
+| `CaterAiHub.tsx` | CaterAi intake box (UI layout) |
+| `Landing.tsx` | Page shell |
+| `index.css` | Theme & button styles |
+| `tailwind.config.js` | Color tokens |
 
-| File / folder | Purpose |
-|---------------|---------|
-| `frontend/src/components/landing/HeroSection.tsx` | Homepage hero |
-| `frontend/src/components/landing/CaterAiHub.tsx` | CaterAi intake box |
-| `frontend/src/components/landing/CaterAiQuickFinish.tsx` | Quick-finish step |
-| `frontend/src/components/landing/CriteriaPreview.tsx` | Parsed criteria preview |
-| `frontend/src/components/landing/HowItWorks.tsx` | 3-step explainer |
-| `frontend/src/components/landing/SectionHeader.tsx` | Shared section title |
-| `frontend/src/pages/Landing.tsx` | Page layout |
-| `frontend/src/index.css`, `tailwind.config.js` | Theme tokens |
-
-Backend, search, account pages, and API code are **not** published here.
+Presentation-only — no backend, API, or app wiring in this repo.
